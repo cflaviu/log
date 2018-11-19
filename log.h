@@ -8,7 +8,7 @@ namespace stdext
 {
 	namespace log
 	{
-		enum app_area {};
+		enum app_area;
 
 		std::basic_ostream<char>& operator << (std::basic_ostream<char>& strm, const app_area area);
 
